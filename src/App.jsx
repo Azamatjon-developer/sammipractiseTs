@@ -1,9 +1,11 @@
 import React from 'react'
-
+import { stules } from './utils/stules'
 const App = () => {
   return (
-    <div>
-      <h2 className="font-poppins font-bold">app </h2>
+    <div className='bg-primary w-full overflow-hidden'>
+      <div className={`${stules.paddingX} p-5`}>
+        <p className={`${stules.heading}`}>Navbar </p>
+      </div>
     </div>
   )
 }
